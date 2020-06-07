@@ -33,7 +33,7 @@ desenvolvida o front-end, utilizando o React JS e na terceira foi desenvolvida a
   npm run dev
   ```
   
- <h3> Front-end (Aplicação Web)
+ <h3> Front-end (Aplicação Web)</h3>
   <p> Para instalar e executar a aplicação Web do React você deve executar os seguintes comandos:</p>
   
   ```
