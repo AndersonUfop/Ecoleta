@@ -47,10 +47,13 @@ desenvolvida o front-end, utilizando o React JS e na terceira foi desenvolvida a
   
   <p>Para executar a aplicação você deve ter instalado em seu celular o aplicativo EXPO, você pode encontrar ele tanto na Play Store, quanto na Apple Store.</p>
   <p> Também você deve executar os seguintes comandos no terminal do seu computador: </p>
+  
   ```
+  
   cd mobile
   npm install expo-cli
   npm start
+  
   ```
  <p> Quando executar, o navegador será aberto e aparecerá um QR Code que você poderá abrir o Expo no seu celular para ler o código e assim executar a aplicação.</p>
 
