@@ -9,6 +9,7 @@ import * as Location from 'expo-location';
 import api from '../../services/api';
 
 
+
 interface Item {
     id: number;
     title: string,
@@ -64,7 +65,7 @@ const Points = () => {
     }, []);
 
     useEffect(() => {
-        api.get('items').then(response => {
+        api.get('/items').then(response => {
             setItems(response.data);
         });
     }, []);
@@ -90,10 +91,10 @@ const Points = () => {
     }
 
     function handleSelectItem(id: number) {
-        const alreadySelected = selectedItems.findIndex(itemId => itemId === id);
+        const alreadySelected = selectedItems.findIndex(item => item === id);
 
         if (alreadySelected >= 0) {
-            const filteredItems = selectedItems.filter(itemId => itemId !== id);
+            const filteredItems = selectedItems.filter(item => item !== id);
 
             setSelectedItems(filteredItems);
         } else {

@@ -12,8 +12,6 @@ import './styles.css';
 
 import logo from '../../assets/logo.svg';
 
-// array ou objeto: manualmente informar o tipo da variável
-
 interface Item {
     id: number;
     title: string;
@@ -34,8 +32,7 @@ const CreatePoint = () => {
     const [ufs, setUfs] = useState<string[]>([]);
     const [cities, setCities] = useState<string[]>([]);
     const [selectedFile, setSelectedFile] = useState<File>();
-
-    // const [initialPosition, setInitialPosition] = useState<[number, number]>([0, 0]);
+    const [initialPosition, setInitialPosition] = useState<[number, number]>([0, 0]);
 
     const [formData, setFormData] = useState({
         name: '',
@@ -51,13 +48,13 @@ const CreatePoint = () => {
 
     const history = useHistory();
 
-    // useEffect(() => {
-    //     navigator.geolocation.getCurrentPosition(position => {
-    //         const { latitude, longitude } = position.coords;
+    useEffect(() => {
+        navigator.geolocation.getCurrentPosition(position => {
+            const { latitude, longitude } = position.coords;
 
-    //         setInitialPosition([latitude, longitude]);
-    //     })
-    // }, []);
+            setInitialPosition([latitude, longitude]);
+        })
+    }, []);
     
 
     useEffect(() => {
@@ -221,7 +218,7 @@ const CreatePoint = () => {
                         <span>Selecione o endereço no mapa</span>
                     </legend>
 
-                    <Map center={[-19.453068,-43.1068623]} zoom={15} onClick={handleMapClick}>
+                    <Map center={initialPosition} zoom={15} onClick={handleMapClick}>
                         <TileLayer
                             attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
