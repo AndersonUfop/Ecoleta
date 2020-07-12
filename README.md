@@ -1,59 +1,57 @@
+<h1 align="center">
+    <img alt="Ecoleta" title="Ecoleta" src="https://raw.githubusercontent.com/Rocketseat/nlw-01-booster/9802992399acf35ca874081f971ce62fab7aab61/.github/ecoleta.svg" width="220px" />
+</h1>
 
-<h1> Ecoleta </h1>
-<p>Projeto desenvolvido na 1ª Next Level Week da Rocktseat </p>
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-![Capa](https://user-images.githubusercontent.com/49786548/83972769-6dee3d00-a8b8-11ea-9b7a-508012930e37.jpg)
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!" />
 
-<h2> Sumário </h2>
-<ul> Introdução </ul>
-<ul> Tecnologias usadas </ul>
-<ul> Como usar
-  
-<h2> Introdução </h2>
-<p> No projeto Next Level Week, da Rocketseat foi desenvolvido uma aplicação para cadastrar e encontrar pontos de coletas de resíduos nos
-locais próximos</p>
-<p> A aplicação foi desenvolvida em 3 etapas: A primeira etapa foi desenvolvida o back-end, utilizando o Node JS, na segunda foi
-desenvolvida o front-end, utilizando o React JS e na terceira foi desenvolvida a aplicação mobile, utilizando o React JS.
-  
-<h2> Tecnologias usadas </h2>
-<ul> TypeScript </ul>
-<ul> Knex </ul>
-<ul> Node JS </ul>
-<ul> React JS </ul>
-<ul> React Native </ul>
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
+</p>
 
-<h2> Como usar </h2>
-<h3> Back-end (servidor) </h3>
-<p> Você deve clonar as dependências para o seu computador. E para instalar e executar o servidor Node você deve rodar os seguintes
-  comandos em um terminal:</p>
-  
-  ```
-  cd server
-  npm install
-  npm run dev
-  ```
-  
- <h3> Front-end (Aplicação Web)</h3>
-  <p> Para instalar e executar a aplicação Web do React você deve executar os seguintes comandos:</p>
-  
-  ```
-  cd frontend
-  npm install
-  npm start
-  ```
-  Aguarde o sistema carregar e automaticamente será aberta o seu navegador com a página ```localhost:3000 ```.
-  
-  <h3> Mobile </h3>
-  
-  <p>Para executar a aplicação você deve ter instalado em seu celular o aplicativo EXPO, você pode encontrar ele tanto na Play Store, quanto na Apple Store.</p>
-  <p> Também você deve executar os seguintes comandos no terminal do seu computador: </p>
-  
-  ```
-  
-  cd mobile
-  npm install expo-cli
-  npm start
-  
-  ```
- <p> Quando executar, o navegador será aberto e aparecerá um QR Code que você poderá abrir o Expo no seu celular para ler o código e assim executar a aplicação.</p>
+<br>
 
+<p align="center">
+  <img alt="Ecoleta" src="https://raw.githubusercontent.com/Rocketseat/nlw-01-booster/master/.github/ecoleta.png" width="100%">
+</p>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
+
+## 💻 Projeto
+
+O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de resíduos de forma eficiente.
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-Booster?node-id=0%3A1). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
+
+## 🤔 Como contribuir
+
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com ♥ by Anderson :wave: [Conecte-se comigo no Linkedin!](https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)
