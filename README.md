@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -50,8 +50,15 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Esse projeto está sob a licença [MIT](./LICENSE).
 
 ---
 
-Feito com ♥ by Anderson :wave: [Conecte-se comigo no Linkedin!](https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)
+Feito com ❤️ por Anderson Fernandes 👋🏽 [Entre em contato!](https://www.linkedin.com/in/anderson-fernandes-8b5a50135/)
+
+---
+
+##  Versões do README
+
+[Português 🇧🇷](./README.md)  |  [Inglês 🇺🇸](./README-en.md)
+
