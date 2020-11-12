@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="#-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-execute-the-project">How to execute the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -53,7 +53,11 @@ This project is divided into three parts:
 ### Prerequisites
 
 Before you begin, you will need to have the following tools installed on your machine:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Expo-Cli](https://docs.expo.io/workflow/expo-cli/).
+You will also need to have the Expo application installed on your [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR)
+or [IOS](https://apps.apple.com/us/app/expo-client/id982107779).
+
+
 In addition, it is good to have an editor to work with the code like [VSCode](https://code.visualstudio.com/)
 
 #### 🎲 Running the Backend (server)
@@ -78,10 +82,6 @@ $ npm run dev: server
 # The server will start at port: 3333 - go to http: // localhost: 3333
 
 ```
-<p align = "center">
-  <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"> <img src="https://insomnia.rest/images/run.svg "alt="Run in Insomnia"> </a>
-</p>
-
 
 #### 🧭 Running the web application (Frontend)
 
@@ -106,7 +106,29 @@ $ npm run start
 
 ```
 
----
+#### 📱 Running the application (Mobile)
+
+``` bash
+
+# Clone this repository
+$ git clone https://github.com/AndersonUfop/Ecoleta.git
+
+# Access the project folder in your terminal / cmd
+$ cd Ecoleta
+
+# Go to the Front End application folder
+$ cd mobile
+
+# Install the dependencies
+$ npm install
+
+# Run the application in development mode
+$ expo start
+
+# With the Expo open on your phone read the QR Code that will appear on the page that was opened, 
+# wait for the application to run on your phone.
+
+```
 
 ## 🤔 How to contribute
 
