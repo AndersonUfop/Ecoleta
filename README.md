@@ -52,7 +52,10 @@ Este projeto é divido em três partes:
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Expo-Cli](https://docs.expo.io/workflow/expo-cli/).
+Também você precisará ter o aplicativo do Expo instalado em seu [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR)
+ou [IOS](https://apps.apple.com/br/app/expo-client/id982107779).
+
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 #### 🎲 Rodando o Backend (servidor)
@@ -100,6 +103,29 @@ $ npm run start
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
+```
+
+#### 📱 Rodando a aplicação (Mobile)
+
+``` bash
+
+# Clone este repositório
+$ git clone https://github.com/AndersonUfop/Ecoleta.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd Ecoleta
+
+# Vá para a pasta da aplicação Front End
+$ cd mobile
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ expo start
+
+# Com o Expo aberto no seu celular leia o código QR Code que aparecerá na página que foi aberta, 
+# aguarde que o aplicativo irá rodar em seu celular.
 ```
 
 ## 🤔 Como contribuir
